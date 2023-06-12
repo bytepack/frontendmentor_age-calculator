@@ -10,7 +10,7 @@ the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor
 
 ### Links
 
-- [Live Site URL:](https://bytepack-frontendmentor-age-calculator.dev/)
+- [Live Site URL:](https://bytepack-frontendmentor-age-calculator.pages.dev/)
 
 ### Built with
 
