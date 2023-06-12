@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer type="module"></script>
+</head>
+<body>
+
+<main>
+    <div class="cal">
+        <div class="cal__entry">
+            <form class="cal__form" novalidate>
+                <div class="cal__fields">
+                    <div class="cal__field" data-field-day>
+                        <label class="cal__title-in" for="input-day">day</label>
+                        <input class="cal__input" id="input-day" placeholder="DD" autocomplete="off" autofocus>
+                        <p class="cal__error">This field is required</p>
+                    </div>
+
+                    <div class="cal__field" data-field-month>
+                        <label class="cal__title-in" for="input-month">month</label>
+                        <input class="cal__input" id="input-month" placeholder="MM" autocomplete="off">
+                        <p class="cal__error">This field is required</p>
+                    </div>
+
+                    <div class="cal__field" data-field-year>
+                        <label class="cal__title-in" for="input-year">year</label>
+                        <input class="cal__input" id="input-year" placeholder="YYYY" autocomplete="off">
+                        <p class="cal__error">This field is required</p>
+                    </div>
+                </div>
+                <button class="cal__btn" type="submit">
+                    <img class="cal__img" src="images/icon-arrow.svg" alt="arrow">
+                </button>
+            </form>
+        </div>
+        <div class="cal__answer">
+            <div class="cal__output">
+                <span class="cal__result put cal__result--y">- -</span>
+                <span class="cal__title-out">years</span>
+            </div>
+            <div class="cal__output">
+                <span class="cal__result cal__result--m">- -</span>
+                <span class="cal__title-out">months</span>
+            </div>
+            <div class="cal__output">
+                <span class="cal__result cal__result--d">- -</span>
+                <span class="cal__title-out">days</span>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
